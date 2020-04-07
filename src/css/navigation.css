@@ -1,0 +1,122 @@
+.navigation {
+    width: 100%;
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--font-24px) 0;
+    transition: .3s;
+}
+
+.navbar-logo .logo {
+    width: 150px;
+    position: relative;
+    transition: .3s;
+}
+
+.navbar-menu .menu {
+    display: flex;
+}
+
+.navbar-menu .menu li {
+    padding: 0 0 0 18px;
+}
+
+.navbar-menu .menu li a {
+    padding: 5px 15px;
+    color: var(--color-light);
+    font-weight: 500;
+    text-transform: lowercase;
+    transition: .5s;
+}
+
+.menu li a:hover, .menu li a:focus {
+    box-shadow: inset 7em 0 0 0 var(--color-light);
+    color: var(--color-smoky-black);
+    transition: .5s;
+}
+
+.navigation.sticky {
+    background: var(--color-smoky-black);
+    transition: .3s;
+    z-index: 1;
+}
+
+.navigation.sticky .navbar .navbar-logo .logo {
+    width: 140px;
+    color: var(--color-smoky-black);
+    transition: .3s;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+    margin-right: 25px;
+}
+
+.menu-toggle div {
+    width: var(--font-32px);
+    height: 3px;
+    margin: 6px 0;
+    border-radius: 2px;
+    background-color: var(--color-light);
+    transition: .3s;
+}
+
+.menu-toggle:hover div {
+    transition: .2s;
+}
+
+.menu-toggle:hover .toggle-one {
+    transition: .2s;
+    margin-left: 100;
+    transform: scale(1.2);
+    margin-left: 12px;
+}
+
+.menu-toggle:hover .toggle-two {
+    transition: .2s;
+    margin-left: 100;
+    transform: scale(1.2);
+    margin-left: 4px;
+}
+
+.menu-toggle:hover .toggle-three {
+    transition: .2s;
+    margin-left: 100;
+    transform: scale(1.2);
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 968px) {
+    .navbar-logo {
+        padding: 0 15px;
+    }
+    .navbar-logo .logo {
+        width: 135px;
+    }
+    .navbar-menu {
+        display: none;
+    }
+    .navigation.sticky .navbar .navbar-logo .logo {
+        width: 120px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-logo {
+        padding: 0 15px;
+    }
+    .navbar-logo .logo {
+        width: 115px;
+    }
+    .navigation.sticky .navbar .navbar-logo .logo {
+        width: 100px;
+    }
+}

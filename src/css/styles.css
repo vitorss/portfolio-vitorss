@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap");
+@import url("https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css");
+@import "/src/css/base.css";
+@import "/src/css/navigation.css";
+@import "/src/css/wrapper.css";
+@import "/src/css/about.css";
+@import "/src/css/services.css";
+@import "/src/css/portfolio.css";
+@import "/src/css/contact.css";
+@import "/src/css/sidenav.css";
