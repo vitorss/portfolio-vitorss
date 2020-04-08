@@ -154,12 +154,14 @@
     }
     .about-info .info-icons {
         width: 100%;
-        margin: var(--font-56px) 0;
+        margin: var(--font-72px) 0;
         display: flex;
         justify-content: center;
     }
     .about-info .info-icons .button {
         margin: 0 16px;
+        /* width: 50px;
+        height: 50px; */
     }
     .about-info .info-icons .button i {
         font-size: var(--font-24px);
