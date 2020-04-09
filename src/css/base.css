@@ -29,7 +29,8 @@ body {
 :root {
     /* colors */
     --color-light: #EEF1F1;
-    --color-dark-turquoise:#00CECE;
+    --color-dark-turquoise: #08FDD8;
+    --color-contrast: #FC0853;
     --color-smoky-black: #191F1F;
     --color-outer-space: #9DAFAF;
     --color-onyx: #465353;

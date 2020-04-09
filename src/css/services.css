@@ -19,14 +19,15 @@
     font-size: var(--font-40px);
     color: var(--color-light);
     font-weight: 700;
-    text-transform: lowercase;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .services-title .subtitle {
     font-size: 20px;
     color: var(--color-outer-space);
-    font-weight: 400;
-    text-transform: lowercase;
+    font-weight: 300;
+    text-transform: uppercase;
     letter-spacing: 4px;
     padding-bottom: var(--font-18px);
 }

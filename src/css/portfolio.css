@@ -17,14 +17,15 @@
     font-size: var(--font-40px);
     font-weight: 700;
     color: var(--color-light);
-    text-transform: lowercase;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .portfolio-title .subtitle {
     font-size: 20px;
     color: var(--color-outer-space);
-    font-weight: 400;
-    text-transform: lowercase;
+    font-weight: 300;
+    text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
     padding-bottom: var(--font-18px);
@@ -35,6 +36,7 @@
     display: grid;
     grid-auto-flow: dense;
     grid-template: "1fr 1fr 1fr" 50vh "1fr 1fr 1fr" 50vh "1fr 1fr 1fr" 50vh;
+    grid-gap: 10px;
 }
 
 .image-gallery .gallery.image-1, .image-gallery .gallery.image-3, .image-gallery .gallery.image-4 {
@@ -68,7 +70,7 @@
 }
 
 .image-gallery .gallery .info-box:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     opacity: 1;
     transition: .5s;
 }

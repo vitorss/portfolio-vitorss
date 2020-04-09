@@ -1,4 +1,4 @@
 window.addEventListener("scroll", function () {
     var navbar = document.querySelector(".navigation");
-    navbar.classList.toggle("sticky", window.scrollY > 0);
+    navbar.classList.toggle("sticky", window.scrollY > 1);
 });
