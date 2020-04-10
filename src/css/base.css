@@ -21,7 +21,6 @@ img {
 
 body {
     background: var(--color-smoky-black);
-    background-repeat: no-repeat;
     font-family: var(--font-family);
     font-size: var(--font-16px);
 }

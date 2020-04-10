@@ -19,6 +19,7 @@
 
 .navbar-menu .menu {
     display: flex;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-menu .menu li {
@@ -27,20 +28,14 @@
 
 .navbar-menu .menu li a {
     position: relative;
-    padding: 5px 15px;
-    font-size: var(--font-16px);
+    padding: 5px 10px;
+    font-size: var(--font-18px);
     color: var(--color-light);
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 400;
+    text-transform: lowercase;
     transition: .3s;
 }
 
-.navbar-menu .menu li a:hover {
-    /* box-shadow: inset 0px -0.2em 0px 0px var(--color-light); */
-    color: var(--color-dark-turquoise);
-    transition: .3s;
-}
-/* 
 .navbar-menu .menu li a:after {
     position: absolute;
     bottom: 0;
@@ -50,14 +45,14 @@
     width: 0%;
     content: '';
     background: var(--color-light);
-    height: 2px;
+    height: 1px;
     transition: .4s;
 }
 
 .navbar-menu .menu li a:hover:after {
     transition: .4s;
-    width: 80%;
-} */
+    width: 90%;
+}
 
 .navigation.sticky {
     background: var(--color-smoky-black);
@@ -89,6 +84,7 @@
 .menu-toggle .toggle-two {
     width: var(--font-24px);
 }
+
 .menu-toggle .toggle-three {
     width: var(--font-16px);
 }

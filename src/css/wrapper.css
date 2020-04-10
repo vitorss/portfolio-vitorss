@@ -21,10 +21,6 @@
     letter-spacing: 4px;
 }
 
-/* .content-title .title img {
-    width: 50px;
-} */
-
 .content-title .legend {
     padding-top: 8px;
     font-size: 20px;
@@ -32,6 +28,7 @@
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content-title .subtitle {
@@ -41,10 +38,12 @@
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content-button {
     padding-top: var(--font-72px);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content-button .button {
@@ -53,7 +52,7 @@
     border: 1px solid var(--color-dark-turquoise);
     color: var(--color-dark-turquoise);
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: .5s;
