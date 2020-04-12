@@ -12,14 +12,13 @@
 }
 
 .navbar-logo .logo {
-    width: 50px;
+    width: 55px;
     position: relative;
     transition: .3s;
 }
 
 .navbar-menu .menu {
     display: flex;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-menu .menu li {
@@ -31,8 +30,8 @@
     padding: 5px 10px;
     font-size: var(--font-16px);
     color: var(--color-light);
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 600;
+    text-transform: capitalize;
     transition: .3s;
 }
 
@@ -55,7 +54,6 @@
 }
 
 .navbar-menu .menu li a:hover:after {
-    box-shadow: 0 -10px 25px 0 var(--color-dark-turquoise);
     transition: .4s;
     width: 90%;
 }
@@ -67,7 +65,7 @@
 }
 
 .navigation.sticky .navbar .navbar-logo .logo {
-    width: 45px;
+    width: 50px;
     color: var(--color-smoky-black);
     transition: .3s;
 }
