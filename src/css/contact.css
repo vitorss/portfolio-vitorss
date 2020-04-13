@@ -137,17 +137,9 @@
     .contact {
         padding: var(--font-88px) 0;
     }
-    .content-contact .text-bg {
-        font-size: 4.5rem;
-        margin-top: -35px;
-        margin-left: 0px;
-        width: 100%;
-        text-align: center;
-    }
-    .contact-info .info h4 {
-        margin-bottom: var(--font-18px);
-        font-size: var(--font-32px);
-        color: var(--color-glitter);
+    .contact-info .info .title {
+        font-size: var(--font-38px);
+        color: var(--color-light);
         font-weight: 700;
         text-transform: lowercase;
     }

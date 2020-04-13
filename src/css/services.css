@@ -167,11 +167,11 @@
         padding: 0;
     }
     .services-title .title {
-        font-size: var(--font-32px);
+        font-size: var(--font-30px);
         margin-bottom: var(--font-40px);
     }
     .services-title .subtitle {
-        font-size: var(--font-18px);
+        font-size: var(--font-16px);
     }
     .services-card {
         display: flex;

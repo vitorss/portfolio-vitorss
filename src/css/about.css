@@ -183,15 +183,18 @@
     }
     .about-info {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 var(--font-20px);
     }
     .about-info .info {
         display: flex;
         flex-direction: column;
     }
-    .about-info .info h3 {
+    .about-info .info h2 {
         font-size: var(--font-32px);
-        margin-top: var(--font-104px);
+        font-weight: 700;
+    }
+    .about-info .info-contact h4 {
+        font-size: var(--font-24px);
         font-weight: 700;
     }
     .about-info .info .button-cv {
