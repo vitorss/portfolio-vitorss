@@ -9,6 +9,7 @@
 
 .content-title {
     text-align: center;
+    margin-top: 100px;
 }
 
 .content-title .title {
@@ -26,7 +27,7 @@
     font-size: var(--font-32px);
     color: var(--color-outer-space);
     font-weight: 700;
-    line-height: 64px;
+    line-height: 54px;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -82,6 +83,79 @@
     transition: .3s;
 }
 
+@keyframes animationFrames {
+    0% {
+        transform: translate(0px, -5px);
+    }
+    50% {
+        transform: translate(0px, 8px);
+    }
+    100% {
+        transform: translate(0px, -5px);
+    }
+}
+
+@-moz-keyframes animationFrames {
+    0% {
+        -moz-transform: translate(0px, -5px);
+    }
+    50% {
+        -moz-transform: translate(0px, 8px);
+    }
+    100% {
+        -moz-transform: translate(0px, -5px);
+    }
+}
+
+@-webkit-keyframes animationFrames {
+    0% {
+        -webkit-transform: translate(0px, -5px);
+    }
+    50% {
+        -webkit-transform: translate(0px, 8px);
+    }
+    100% {
+        -webkit-transform: translate(0px, -5px);
+    }
+}
+
+@-o-keyframes animationFrames {
+    0% {
+        -o-transform: translate(0px, -5px);
+    }
+    50% {
+        -o-transform: translate(0px, 8px);
+    }
+    100% {
+        -o-transform: translate(0px, -5px);
+    }
+}
+
+@-ms-keyframes animationFrames {
+    0% {
+        -ms-transform: translate(0px, -5px);
+    }
+    50% {
+        -ms-transform: translate(0px, 8px);
+    }
+    100% {
+        -ms-transform: translate(0px, -5px);
+    }
+}
+
+.wrapper-arrow {
+    padding: 10px 10px;
+    margin-top: 20px;
+    background: var(--color-dark-turquoise);
+    border-radius: 10px;
+}
+
+.wrapper-arrow i {
+    font-size: var(--font-28px);
+    animation: animationFrames 2s infinite;
+    color: var(--color-smoky-black);
+}
+
 @media screen and (max-width: 968px) {
     .content-title .title {
         font-size: var(--font-56px);
@@ -98,18 +172,18 @@
     .content-title {
         padding: 0 10px;
     }
-    .content-title > .title {
+    .content-title>.title {
         font-size: var(--font-48px);
         line-height: 72px;
     }
-    .content-title > .legend {
+    .content-title>.legend {
         font-size: var(--font-22px);
         line-height: var(--font-56px);
     }
-    .content-title > .legend >.legend-color {
+    .content-title>.legend>.legend-color {
         font-size: var(--font-22px);
     }
-    .content-title > .subtitle {
+    .content-title>.subtitle {
         font-size: var(--font-16px);
         line-height: var(--font-42px);
     }

@@ -12,9 +12,9 @@
     object-fit: cover;
 }
 
-.about-info .info h2 {
+.about-info .info .title {
     padding: var(--font-40px) 0 var(--font-18px) 0;
-    font-size: var(--font-48px);
+    font-size: var(--font-40px);
     font-weight: 700;
     color: var(--color-light);
     letter-spacing: 1px;
