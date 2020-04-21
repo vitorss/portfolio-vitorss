@@ -6,14 +6,16 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
 }
 
 .about-image {
+    background-size: cover;
     object-fit: cover;
 }
 
 .about-info .info .title {
-    padding: var(--font-40px) 0 var(--font-18px) 0;
+    padding: var(--font-24px) 0 var(--font-18px) 0;
     font-size: var(--font-40px);
     font-weight: 700;
     color: var(--color-light);
@@ -129,22 +131,22 @@
 }
 
 @media screen and (max-width: 968px) {
-    .content-about {
-        width: 100%;
-        display: flex;
-    }
     .about-image {
         width: 100%;
+    }
+    .content-about {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
     }
     .about-info {
         width: 100%;
         padding: 0 30px;
     }
-    .about-info .info h3 {
-        font-size: var(--font-32px);
-        margin-top: var(--font-104px);
-        font-weight: 700;
-        text-align: center;
+    .about-info .info .title {
+        padding: 0 0 var(--font-18px) 0;
+        font-size: var(--font-34px);
     }
 }
 
@@ -156,10 +158,11 @@
     }
     .about-image {
         width: 100%;
+        padding: 0 var(--font-20px);
     }
     .about-info {
         width: 100%;
-        padding: 0 30px;
+        padding: var(--font-56px) 30px 0 30px;
     }
     .about-info .info h3 {
         font-size: var(--font-32px);
@@ -183,19 +186,28 @@
     }
     .about-info {
         width: 100%;
-        padding: 0 var(--font-20px);
+        padding: var(--font-56px) var(--font-20px) 0 var(--font-20px);
     }
     .about-info .info {
         display: flex;
         flex-direction: column;
     }
-    .about-info .info h2 {
+    .about-info .info .title {
         font-size: var(--font-32px);
         font-weight: 700;
+    }
+    .about-info .info .resume {
+        font-size: var(--font-16px);
     }
     .about-info .info-contact h4 {
         font-size: var(--font-24px);
         font-weight: 700;
+    }
+    .about-info .info-contact p i {
+        font-size: var(--font-24px);
+    }
+    .about-info .info-contact p a {
+        font-size: var(--font-16px);
     }
     .about-info .info .button-cv {
         padding: 12px 30px;
