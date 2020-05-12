@@ -124,6 +124,7 @@
 
 .services-card .card .description p {
     font-size: var(--font-18px);
+    font-family: "Open Sans", sans-serif;
 }
 
 @media screen and (max-width: 968px) {

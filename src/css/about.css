@@ -6,12 +6,17 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
+    grid-gap: 80px;
 }
 
 .about-image {
     background-size: cover;
     object-fit: cover;
+}
+
+.about-image img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0 rgba(20, 20, 20, 1);
 }
 
 .about-info .info .title {
@@ -34,6 +39,7 @@
     font-size: var(--font-18px);
     color: var(--color-outer-space);
     line-height: var(--font-32px);
+    font-family: "Open Sans", sans-serif;
 }
 
 .about-info .info-contact {

@@ -28,7 +28,7 @@
 .navbar-menu .menu li a {
     position: relative;
     padding: 5px 10px;
-    font-size: var(--font-16px);
+    font-size: var(--font-18px);
     color: var(--color-light);
     font-weight: 600;
     text-transform: capitalize;

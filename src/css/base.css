@@ -57,7 +57,7 @@ body {
     --font-104px: 6.5rem;
     --font-112px: 7rem;
     /* fonte padrão */
-    --font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 .container {
