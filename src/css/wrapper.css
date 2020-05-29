@@ -67,7 +67,7 @@
     padding: 15px 30px;
     background: transparent;
     border: 2px solid var(--color-dark-turquoise);
-    border-radius: 10px;
+    border-radius: 5px;
     color: var(--color-dark-turquoise);
     font-size: var(--font-16px);
     line-height: 150px;

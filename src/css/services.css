@@ -38,7 +38,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 16px;
     color: var(--color-glitter);
 }
 
@@ -46,8 +46,8 @@
     padding: 56px 24px;
     font-size: 20px;
     text-align: center;
-    border-radius: 5%;
-    border: 1px solid var(--color-dark-turquoise);
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
     transition: .3s ease;
 }
 
@@ -66,13 +66,13 @@
     height: 80px;
     padding: 20px;
     border-radius: 50%;
-    background: var(--color-dark-turquoise);
+    background: var(--color-hover);
     transition: .5s;
 }
 
 .services-card .card .card-icons i {
     font-size: var(--font-40px);
-    color: var(--color-smoky-black);
+    color: var(--color-dark-turquoise);
 }
 
 .services-card .card .description h3 {
@@ -84,6 +84,7 @@
     margin-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
+    color: var(--color-dark-turquoise);
 }
 
 .services-card .card .description h3::after {
@@ -93,15 +94,15 @@
     right: 0;
     content: '';
     width: 30px;
-    height: 2px;
-    background: var(--color-dark-turquoise);
+    height: 1px;
+    background: var(--color-light);
     margin: 0 auto;
     transition: .3s;
 }
 
 .services-card .card:hover {
-    background: var(--color-dark-turquoise);
-    color: var(--color-smoky-black);
+    background: var(--color-hover);
+    color: var(--color-glitter);
     transition: .3s ease;
     transform: scale(1.05);
 }
@@ -117,8 +118,8 @@
 }
 
 .services-card .card:hover .description h3::after {
-    width: 50px;
-    background: var(--color-smoky-black);
+    width: 55px;
+    background: var(--color-dark-turquoise);
     transition: .3s;
 }
 

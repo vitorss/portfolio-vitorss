@@ -28,7 +28,7 @@
 .navbar-menu .menu li a {
     position: relative;
     padding: 5px 10px;
-    font-size: var(--font-18px);
+    font-size: var(--font-16px);
     color: var(--color-light);
     font-weight: 600;
     text-transform: capitalize;
@@ -48,7 +48,7 @@
     margin: auto;
     width: 0%;
     content: '';
-    background: var(--color-dark-turquoise);
+    background: var(--color-light);
     height: 1px;
     transition: .4s;
 }

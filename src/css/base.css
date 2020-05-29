@@ -34,6 +34,8 @@ body {
     --color-outer-space: #9DAFAF;
     --color-onyx: #465353;
     --color-glitter: #C4CFCF;
+    --color-border: #222A2A;
+    --color-hover: #113A33;
     /* font sizes */
     --font-16px: 1rem;
     --font-18px: 1.125rem;
